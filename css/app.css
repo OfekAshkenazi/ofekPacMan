@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(102, 107, 152);
+
+}
+
+.bigFrame {
+  position: relative;
+  max-width: 600px;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-top: 1rem;
+  box-shadow: 0 0 5px rgb(48, 14, 202), 0 0 25px rgb(47, 13, 198), 0 0 50px rgb(49, 17, 194), 0 0 100px rgb(47, 13, 199);
+
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgb(30, 20, 75), 0 0 25px rgb(31, 21, 77), 0 0 50px rgb(26, 18, 62), 0 0 100px rgb(19, 12, 49);
+}
+
+
+.gameOver-modal {
+  position: relative;
+  width: fit-content;
+  display: none;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+
+button {
+  position: relative;
+  padding: 7px;
+  background-color: rgb(93, 107, 227);
+  color: rgb(77, 203, 212);
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+  left: 2rem;
+  top: 2.8rem;
+  display: none;
+}
+
+button:hover {
+  color: rgb(30, 20, 75);
+  box-shadow: 0 0 5px rgb(30, 20, 75), 0 0 25px rgb(31, 21, 77), 0 0 50px rgb(26, 18, 62), 0 0 100px rgb(19, 12, 49);
+
+
+}
+
+.score {
+  position: relative;
+  max-width: 120px;
+  margin: auto;
+  max-height: fit-content;
+  color: rgb(186, 190, 223);
+  border-radius: 15%;
+  box-shadow: 0 0 5px rgb(53, 170, 205), 0 0 25px rgb(53, 170, 205), 0 0 50px rgb(53, 170, 205), 0 0 100px rgb(53, 170, 205);
+}
+
+
+
+.board-container {
+  position: relative;
+  width: fit-content;
+  background-color: rgb(229, 236, 228);
+}
+
+/* .wall {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: black;
+  box-shadow: 0 0 5px rgb(3, 0, 17), 0 0 25px rgb(31, 21, 77), 0 0 50px rgb(26, 18, 62), 0 0 100px rgb(19, 12, 49);
+} */
