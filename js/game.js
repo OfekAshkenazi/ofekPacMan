@@ -75,8 +75,8 @@ function gameOver() {
     renderCell(gPacman.location, '🪦')
      elModel.style.display = 'block'
     if (countFood === 130) {
-        elHeader.innerText = `you won you did Gj mennn`
-    } else  elHeader.innerText = `you lost the ghost has been eat you`
+        elHeader.innerText = `you won Gj mennn`
+    } else  elHeader.innerText = `you have been eaten by the ghost`
 
 }
 function addCherry() {
